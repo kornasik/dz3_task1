@@ -1,0 +1,298 @@
+body {
+    background: #ffffff url("../img/background.jpg") no-repeat;
+    background-size: 100%;
+    font-family: "Open Sans";
+}
+
+header {
+    width: 50%;
+    margin: 0 auto;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.hotLine {
+    position: absolute;
+    top: -0.5%;
+    right: 23.7%;
+    font-size: 1.2vw;
+    color: white;
+}
+
+.hotLine b {
+    font-size: 1.4vw;
+}
+
+.happyBirthday {
+    margin-top: 20%;
+}
+
+
+.nameHappy {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 25vw;
+    height: 4.4vw;
+    padding: 10px 0px;
+    background-color: white;
+    color: black;
+    border-radius: 1000px;
+    font-size: 23px;
+}
+
+.nameHappy img {
+    margin-left: 3%;
+    width: 4.2vw;
+    height: 4.2vw;
+}
+
+.nameHappy span {
+    margin-top: 1%;
+    text-align: left;
+    margin-left: 3%;
+    font-size: 1.5vw;
+}
+
+
+.sertificate {
+    background: url('../img/list.png') no-repeat;
+    background-size: 100%;
+    height: 100%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+
+.title {
+    margin-top: 1%;
+    color: #ffea00;
+    font-size: 4vw;
+    margin-bottom: 1%;
+}
+
+.description {
+    width: 45vw;
+    margin: 0 auto;
+    color: white;
+    font-size: 1vw;
+}
+
+
+.btn {
+    position: relative;
+    display: inline-block;
+    top: 1vw;
+    width: 25vw;
+    height: 3.5vw;
+    line-height: 2.5em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #777;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, .1em .1em .2em #800;
+    background: linear-gradient(#ffc535 48%, #ff9000 52%, #ff9000);
+    font-size: 1.4vw;
+}
+
+.btn:active {
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, .05) inset;
+}
+
+.happyBirthday p:last-child {
+    margin-top: 4%;
+    color: white;
+    font-size: 1vw;
+}
+
+.whyTitle {
+    font-size: 2.2vw;
+    text-align: center;
+    color: #ff9200;
+    font-weight: bold;
+    padding-top: 3%;
+}
+
+.whySertificate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 0.7vw;
+
+}
+
+.whySertificate img {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 1000px;
+    box-shadow: 0 10px 40px 3px rgba(0, 0, 0, .2);
+}
+
+
+div.viewPresent h2:first-child {
+    margin-top: 8%;
+    font-size: 2.3vw;
+    color: white;
+}
+
+.viewPresent img {
+    width: 33vw;
+}
+
+.viewPresent {
+    color: white;
+}
+
+.infoSertificate {
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin-top: -2%;
+}
+
+table {
+    display: flex;
+    font-size: 1vw;
+    justify-content: space-around;
+    text-align: left;
+}
+
+table td:first-child {
+    padding-right: 15%;
+}
+
+.buyTitile {
+    color: #ff9200;
+    font-size: 2.3vw;
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+.buyWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 0.8vw;
+    line-height: 0.8vw;
+}
+
+.buySertificate {
+    position: relative;
+}
+
+
+.shari2 {
+    position: absolute;
+    top: -71.4%;
+    left: -17.3%;
+    width: 17vw;
+}
+
+.stepTwo {
+    margin-left: -3%;
+}
+
+.buyWrapper img {
+    width: 8vw;
+    box-shadow: 0 10px 40px 3px rgba(0, 0, 0, .2);
+    border-radius: 1000px;
+
+}
+
+.stepTwo ul {
+    text-align: left;
+
+}
+
+.stepTwo li {
+    color: #ff8019;
+
+}
+
+.stepTwo li span {
+    color: black;
+
+}
+
+.buyWrapper img:last-child {
+    width: 8vw;
+    box-shadow: none;
+    border-radius: 0;
+
+}
+
+.freeTest h2 {
+    color: #ff9200;
+    font-weight: bold;
+    font-size: 2.3vw;
+}
+
+.freeTest h3 {
+    color: white;
+    font-size: 2.3vw;
+    margin-top: 20%;
+}
+
+.btnEmail {
+    width: 18vw;
+    height: 5vw;
+    line-height: 20px;
+    margin-right: 5%;
+}
+
+.btnLink {
+    width: 18vw;
+    height: 5vw;
+    line-height: 20px;
+
+}
+
+.presentSetificate {
+    margin-top: -5%;
+    margin-left: -30%;
+    width: 18vw;
+}
+
+.freeTest {
+    position: relative;
+}
+
+form {
+    position: absolute;
+    top: 68%;
+    right: 13%;
+}
+
+.buy {
+    width: 16vw;
+    background: linear-gradient(#25a5eb 48%, #0080d0 52%, #0080d0);
+}
+
+select {
+    width: 90%;
+    height: 3.4vw;
+    font-size: 2vw;
+    font-weight: bold;
+    border-radius: 100px;
+    color: black;
+    background-color: #f3f3f3;
+}
+
+option {
+    border-radius: 100px;
+}
+
+footer {
+    color: white;
+    font-size: 0.6vw;
+    opacity: 0.6;
+}
